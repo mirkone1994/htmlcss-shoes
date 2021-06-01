@@ -25,3 +25,23 @@ img {
     top: 50%;
     left: 50%;
 }
+span[class$="txt"] {
+    position: absolute;
+    transform: translatex(-50%);
+    left: 50%;
+    font-size: 50px;
+    font-weight: 900;
+}
+.uptxt {
+    top: 75%;
+
+}
+.downtxt {
+    top: 80%;
+}
+.contenty {
+    color: yellow;
+}
+.contentg {
+    color: green;
+}
