@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
 }
 #red {
     background-color: red;
@@ -27,19 +28,12 @@ img {
     top: 50%;
     left: 50%;
 }
-span[class$="txt"] {
+p  {
     position: absolute;
-    transform: translatex(-50%);
+    bottom: 15%;
     left: 50%;
-    font-size: 50px;
-    font-weight: 900;
-}
-.uptxt {
-    top: 75%;
-
-}
-.downtxt {
-    top: 80%;
+    transform: translate(-50%);
+    font-size: 40px;
 }
 .contenty {
     color: yellow;
