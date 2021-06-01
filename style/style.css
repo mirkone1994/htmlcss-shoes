@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.fullpage {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
